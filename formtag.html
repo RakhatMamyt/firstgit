@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Form Demo</title>
+</head> 
+<body>
+	<h1> Login </h1>
+
+<form> 
+	<label for="Email">Email:</label>
+	<input id="Email" type="Email" name="Email" placeholder="example@mail.com" required>
+	<label for="Username"> Username: </label>	
+	<input id="Username" type="Text" name="Username" placeholder="Username" maxlength="10" minlength="5" required>
+	<label for="Password"> Password: </label>
+	<input id="Password" type="Password" placeholder="Password" required> 
+	<input type="Submit"> <br>
+	
+</form>
+
+<h1>Personal Information</h1>
+<p>Tell us a little bit about yourself</p>
+<textarea name="paragraph" rows="5" cols="20"></textarea>
+
+<form>
+	<input type="text" placeholder="Last Name"> 
+	<input type="text" placeholder=" First Name"> <br>
+	<label>
+		Birthday:
+	<select name="month">
+		<option>Month</option>
+		<option>January</option>
+		<option>February</option>
+		<option>March</option>
+		<option>April</option>
+		<option>May</option>
+		<option>June</option>
+		<option>July</option>
+		<option>August</option>
+		<option>September</option>
+		<option>October</option>
+		<option>November</option>
+		<option>December</option>
+	</select>
+	<select name="date">
+		<option>Date</option>
+		<option>1</option>
+		<option>2</option>
+		<option>3</option>
+		<option>4</option>
+		<option>5</option>
+		<option>6</option>
+		<option>7</option>
+		<option>8</option>
+		<option>9</option>
+		<option>10</option>
+		<option>11</option>
+		<option>12</option>
+		<option>13</option>
+		<option>14</option>
+		<option>15</option>
+		<option>16</option>
+		<option>17</option>
+		<option>18</option>
+		<option>19</option>
+		<option>20</option>
+		<option>21</option>		
+		<option>22</option>
+		<option>23</option>
+		<option>24</option>
+		<option>25</option>
+		<option>26</option>		
+		<option>27</option>
+		<option>28</option>
+		<option>29</option>
+		<option>30</option>
+		<option>31</option>		
+		
+	</select>
+	<select name="year">
+		<option>Year</option>
+		<option>2020</option>
+		<option>2019</option>
+		<option>2018</option>
+		<option>2017</option>
+		<option>2016</option>		
+		<option>2015</option>
+		<option>2014</option>		
+		<option>2013</option>		
+		<option>2012</option>
+		<option>2011</option>
+	</select>
+</label>
+
+		<p>Card Number</p>
+		<label for="cardnumber">Card number:</label>
+		<input id="cardnumber"  type="number" placeholder="0000 0000 0000 0000">
+		<label for="expirationmonth">Expiration Month</label>
+		<input id="expirationmonth" type="month" name="Exp." placeholder="MM/YY"> 
+		<label for="CVN/CVC">CVN/CVC</label>
+		<input id="CVN/CVC" type="number" name="CVC/CVN" placeholder="CVC/CVN">
+		<p>Billing Address</p>
+		<label for="Street">Street</label>
+		<input id="Street" type="text" placeholder="Street Address">
+		<label for="Apt#">Apt #</label>
+		<input id="Apt#" type="text" placeholder= "Apt #"> <br>
+		<label for="City">City</label>
+		<input type="text" placeholder="City"> <br>
+		<label for="State">State</label>
+		<input id="State" type="text" placeholder="State">
+		<label for="ZIP">ZIP code</label>
+		<input id="ZIP" type="number" placeholder="ZIP"> <br>
+		<label for="agreement">I have read and agree to the Terms & Conditions:</label>
+		<input id="agreement" type="checkbox">
+</form>
+
+	<p> What's the best way to reach you:</p> 
+<form>
+		<select>
+			<option value="phone" name="phone"> phone </option>
+			<option value="mail" name="mail"> mail </option>
+			<option value="email" name="email"> email </option>
+		</select>
+		
+</form>
+<br>
+
+
+<form>
+	<label for="chicken">Chicken</label>
+	<input name="meat" id="chicken" type="radio">
+	<label for="beef">Beef</label>
+	<input name="meat" id="beef" type="radio">
+	<label for="veggie">Veggie</label>
+	<input name="meat" id="veggie" type="radio">
+	<label for="turkey">Turkey</label>
+	<input name="meat" id="turkey" type="radio">
+	<button>Submit!</button>
+</form>
+</body>
+</html>
